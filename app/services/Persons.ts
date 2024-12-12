@@ -1,6 +1,6 @@
 export interface PersonRequest {
     fullName: string;
-    dateBirth: Date;
+    dateBirthString: string;
 }
 
 export const getAllPersons = async () => {

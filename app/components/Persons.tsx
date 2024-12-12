@@ -11,7 +11,7 @@ export const Persons = ({persons}:Props) => {
             {persons.map((person: Person) => (
                 <Card key={person.id} title="сотрудник">
                     <p>{person.fullName}</p>
-                    
+                    <p>{person.bithDateToString}</p>
                     <div>
                         <Button>Изменить</Button>
                     </div>

@@ -25,8 +25,6 @@ export default function PersonsPage() {
                 
 
             <Persons persons={persons}/>
-
-            (loading ? <Title>Загрузка ...</Title> : <Persons persons = {persons}/>)
         </div>
     )
 }

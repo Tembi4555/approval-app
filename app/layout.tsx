@@ -20,7 +20,7 @@ export default function RootLayout({
       <body>
         <Layout style={{minHight: "100vh"}}>
           <Header>
-          <Menu mode="horizontal" items={items} theme="dark" />
+            <Menu mode="horizontal" items={items} theme="dark" />
           </Header>
           <Content style={{ padding: "0 48px"}}>{children}</Content>
           <Footer style={{textAlign: "center"}}>ApprovalApp 2024 Created By Artem Grushev</Footer>
@@ -29,3 +29,4 @@ export default function RootLayout({
     </html>
   );
 }
+

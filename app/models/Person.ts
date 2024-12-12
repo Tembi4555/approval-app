@@ -1,5 +1,5 @@
 interface Person {
     id: number;
     fullName: string;
-    dateBirth: Date;
+    bithDateToString: string;
 }
